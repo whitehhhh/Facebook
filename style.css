@@ -1,0 +1,61 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.icon1{
+    text-align: center;
+    font-size: 50px;
+}
+.fb-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+.fb-form .fp{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.fb-form .fp:hover{
+    text-decoration: underline;
+}
+.fb-form input{
+    margin-top: 20px;
+}
+#text{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 12px;
+    width: 50%;
+    margin-left: 25%;
+}
+#text:hover{
+    border: 2px solid blue;
+}
+#login{
+    border: none;
+    background-color: #1877f2;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    width: 54%;
+    margin-left: 25%;
+    font-weight: 600;
+}
+.new-ac{
+    color: white;
+    background-color: #36a420;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 25%;
+    margin-left: 36%;
+}
